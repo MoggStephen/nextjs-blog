@@ -48,3 +48,4 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 - sass package has been installed to use sass. clsx is used to style the alert component(not in use).
 - dynamic page with pages/posts/[id].js and lib/posts.js
 - Simple api serverless endpoint with pages/api/hello.js. This code is not bundled to a users client browser so its safe for server-side code. Do notfetch an api route from getStaticProps or getStaticPaths instead write server-side code here! Preview mode is used to fetch data from a headless cms. Endpoints can be dynamic like regular pages.
+- Deployment should be done with vercel with a next.js project.
